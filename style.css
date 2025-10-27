@@ -12,7 +12,7 @@ p {
   color: #333333; /* darker gray for readability */
 }
 
-table {
+.table {
   display: table;
   margin: 20px auto;
   border-collapse: collapse;
@@ -20,11 +20,11 @@ table {
   text-align: left;
 }
 
-row {
+.row {
   display: table-row;
 }
 
-cell {
+.cell {
   display: table-cell;
   border: 1px solid #ccc;
   padding: 8px 12px;
