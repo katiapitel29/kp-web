@@ -1,0 +1,13 @@
+body {
+  background-color: #f0f8ff; /* light blue background */
+  font-family: Arial, sans-serif; /* clean, modern text */
+  text-align: center; /* center all text */
+}
+
+h1 {
+  color: #2a5d84; /* dark blue heading */
+}
+
+p {
+  color: #333333; /* darker gray for readability */
+}
