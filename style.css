@@ -1,31 +1,29 @@
 body {
-  background-color: #f0f8ff; /* light blue background */
-  font-family: Arial, sans-serif; /* clean, modern text */
+  font-family: Arial, sans-serif;
+  margin: 24px;
   text-align: center; /* center all text */
 }
+
 
 h1 {
   color: #2a5d84; /* dark blue heading */
 }
 
-p {
-  color: #333333; /* darker gray for readability */
-}
-
 .table {
-  display: table;
-  margin: 20px auto;
-  border-collapse: collapse;
-  width: 80%;
-  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;    /* two columns */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .row {
-  display: table-row;
+  display: contents; /* lets child .cell occupy the grid columns */
 }
 
 .cell {
-  display: table-cell;
-  border: 1px solid #ccc;
-  padding: 8px 12px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
 }
